@@ -1,13 +1,21 @@
+/* UNIVERSAL STYLES START */
 * {
     margin: 0;
     padding:0;
     box-sizing: border-box;
 }
-    
-    body {
+ /* UNIVERSAL STYLES END */
+ 
+ /* GLOBAL STYLES START */
+body {
     color: #39a6b2;
     font-family: heletica, arial, sans-serif;
 }
+
+section {
+    padding: 60px;
+}
+/* GLOBAL STYLES END */
 
 /* APPLY STYLES TO THE HEADER */
 header {
@@ -42,6 +50,33 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+/* END HEADER STYLES */
+
+/* START HERO/JUMBOTRON STYLES */
+.hero {
+    background-image: url('../images/hero-bg.jpg');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-form {
+    color: #024e76;
+    padding: 20px;
+    width: 500px;
+    background-color: #fce138;
+    border: solid 3px #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+
+.hero-form h3 {
+    font-size: 25px;
+    margin: 0;
+}
+/* END HERO/JUMBOTRON STYLES */
 
 /* FOOTER STYLES */
 footer {
@@ -66,3 +101,4 @@ footer div {
 footer a {
     color: #024e76;
   }
+  /* END FOOTER STYLES */
