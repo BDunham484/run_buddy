@@ -109,18 +109,7 @@ header nav ul li a {
     text-align: center;
 }
 
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    display: inline-block;
-}
 
-.primary-border {
-    border-color: #fce138;
-}
 
 .intro p {
     line-height: 1.7;
@@ -137,9 +126,7 @@ header nav ul li a {
     background: #fce138;
 }
 
-.secondary-border {
-    border-color:#39a6b2;
-}
+
 
 .steps div {
     margin-bottom: 80px;
@@ -163,6 +150,23 @@ header nav ul li a {
 
 .steps span {
     font-size: 38px;
+}
+
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;  
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color:#39a6b2;
 }
 /* END WHAT YOU DO STYLES */
 
